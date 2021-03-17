@@ -11,8 +11,8 @@ time_now = datetime.now()
 
 # Edit for your environment
 days_to_delete = 100
-bucketname = 'bucketjeffreyrupp'
-filename = 'nNotDelete.txt'
+bucketname = 'bucketS3'
+filename = 'NotDelete.txt'
 
 def handler(event,context):
     try:
