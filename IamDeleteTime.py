@@ -12,7 +12,7 @@ time_now = datetime.now()
 # Edit for your environment
 days_to_delete = 100
 bucketname = 'bucketjeffreyrupp'
-filename = 'jeffreyrupp.txt'
+filename = 'tekst.txt'
 
 def handler(event,context):
     try:
@@ -39,8 +39,6 @@ def handler(event,context):
                     if time_diff.days >= days_to_delete:
                         for r in roles['Roles']:
                             role = resource.Role(name=r['RoleName'])
-                            bucketname = 'bucketJeffreyRupp'
-                            filename = 'jeffreyrupp.txt'
                             string_to_search = str(role)
                         
                             # Get the content of a file stored in S3
