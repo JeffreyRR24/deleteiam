@@ -1,5 +1,5 @@
 # deleteiam
-Delete IAM policy in AWS look using lambda
+Delete IAM policy in AWS using lambda
 
 - Put the txt file in a S3 bucket
 - In the file you can give the names of the policies you don't want deleted.
