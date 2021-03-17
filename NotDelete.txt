@@ -1,0 +1,3 @@
+iam.Role(name='SomethingElse')
+iam.Role(name='amplify-login-lambda-738c7a9d')
+iam.Role(name='appsync-ds-ddb-3uttyj-CatConnetApiPushTabl')
